@@ -1,0 +1,17 @@
+{
+    "name": "jeremycurny/slim-rest-api",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "jeremycurny",
+            "email": "jeremy.curny.pro@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"": "src/"}
+    },
+    "require": {
+        "slim/slim": "^3.3",
+        "zircote/swagger-php": "^2.0"
+    }
+}
