@@ -1,9 +1,10 @@
 <?php
 namespace Controller;
 
+use Core\Controller;
 use Exception;
 
-class UserController {
+class UserController extends Controller {
 
 	/**
 	 * @SWG\Get(
@@ -11,7 +12,7 @@ class UserController {
 	 *     @SWG\Response(response="200", description="Successful operation")
 	 * )
 	 */
-	public static function find($req, $res, $args) {
+	public function find($req, $res, $args) {
 		throw new Exception('Not yet implemented');
 	}
 
@@ -29,7 +30,7 @@ class UserController {
 	 *     @SWG\Response(response="404", description="User not found")
 	 * )
 	 */
-	public static function findById($req, $res, $args) {
+	public function findById($req, $res, $args) {
 		throw new Exception('Not yet implemented');
 	}
 
@@ -40,7 +41,7 @@ class UserController {
 	 *     @SWG\Response(response="400", description="Invalid inputs supplied")
 	 * )
 	 */
-	public static function create($req, $res, $args) {
+	public function create($req, $res, $args) {
 		throw new Exception('Not yet implemented');
 	}
 
@@ -59,7 +60,7 @@ class UserController {
 	 *     @SWG\Response(response="404", description="User not found")
 	 * )
 	 */
-	public static function updateById($req, $res, $args) {
+	public function updateById($req, $res, $args) {
 		throw new Exception('Not yet implemented');
 	}
 
@@ -78,7 +79,7 @@ class UserController {
 	 *     @SWG\Response(response="404", description="User not found")
 	 * )
 	 */
-	public static function deleteById($req, $res, $args) {
+	public function deleteById($req, $res, $args) {
 		throw new Exception('Not yet implemented');
 	}
 

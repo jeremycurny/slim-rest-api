@@ -8,7 +8,9 @@
         }
     ],
     "autoload": {
-        "psr-4": {"": "src/"}
+        "psr-4": {
+            "": "src/"
+        }
     },
     "require": {
         "slim/slim": "^3.3",
